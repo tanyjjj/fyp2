@@ -19,8 +19,10 @@ public class RegistrationPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_page);
     }
-    public void jumpToHome(View view){
-        Intent goToHome = new Intent (Login.this,Homepage.class);
+
+    public void jumpToHome(View view) {
+        Intent goToHome = new Intent(RegistrationPage.this, Homepage.class);
         startActivity(goToHome);
 
+    }
 }
